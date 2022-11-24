@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://media.wired.com/photos/59094a0ad8c8646f38eef2ae/191:100/w_1280,c_limit/rainbow-sq.jpg" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://media.wired.com/photos/59094a0ad8c8646f38eef2ae/191:100/w_1280,c_limit/rainbow-sq.jpg"
+      type="image/x-icon"
+    />
     <title>BackgrounGradient Generator</title>
-</head>
-<body id="gradient">
-   <h1>Background Generator</h1>
-   <input id="color1" type="color" name="color1" value="#00ff00"> 
-   <input id="color2" type="color" name="color2" value="#ff0000"> 
-   <input id="color3" type="color" name="color3" value="#000000"> 
+  </head>
+  <body id="gradient">
+    <h1>Background Generator</h1>
+    <div class="grp">
+      <input id="color1" type="color" name="color1" value="#00ff00" />
+      <input id="color2" type="color" name="color2" value="#ff0000" />
+      <input id="color3" type="color" name="color3" value="#000000" />
+    </div>
     <h2>Current CSS Background</h2>
     <!-- <h3></h3> -->
     <div>
-        <input id="output" type="text" value="linear-gradient(to right, rgb(255, 51, 0), rgb(255, 234, 0), rgb(45, 4, 251))">
-        <input class="btn" id="copy-btn" type="button" value="copy-btn">
+      <input id="output" type="text" value="linear-gradient(to right, rgb(255, 51, 0), rgb(255, 234, 0), rgb(45, 4, 251))" />
+      <input class="btn" id="copy-btn" type="button" value="copy-btn" />
     </div>
+    <button class="btn-main" id="change-btn">Change Color</button>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

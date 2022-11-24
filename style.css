@@ -1,51 +1,81 @@
-body{
-    font-family: sans-serif;
-    color: rgba(0, 0, 0,0.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
-    top: 15%;
-    background: linear-gradient(to right,red,yellow,blue);
-    text-shadow: 0 0 3px #fff;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, red, yellow, blue);
+  text-shadow: 0 0 3px #fff;
 }
 
-h1{
-    font-weight:600;
-    font-size:  3.5em;
-    width: 100%;
-    text-transform: uppercase;
+h1 {
+  font-weight: 600;
+  font-size: 3.5em;
+  width: 100%;
+  text-transform: uppercase;
 }
 
-h3{
-    font-weight:900;
-    font-size:  1.2em;
-    text-transform: none;
-    letter-spacing: none;
+h3 {
+  font-weight: 900;
+  font-size: 1.2em;
+  text-transform: none;
+  letter-spacing: none;
+}
+
+.grp {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.btn-main {
+  background-image: linear-gradient(to right, #000000 0%, #e74c3c 51%, #000000 100%);
+  margin: 35px;
+  padding: 20px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-size: 18px;
+  display: block;
+}
+
+.btn-main:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
 #output {
-	background: #ecf0f1;
-	color: #2c3e50;
-	width: 15rem;
-	margin-top: 30px;
-    padding: 7px;
-	margin-right: 10px;
-	border-radius: 7px;
-	border: none;
-	font-size: 15px;
+  background: #ecf0f1;
+  color: #2c3e50;
+  width: 15rem;
+  margin-top: 30px;
+  padding: 7px;
+  margin-right: 10px;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
 }
 
-
-.btn{
-	padding:8px 20px;
-	border: 1px solid #000;
-	border-radius: 7px;
-	font-size: 15px;
+.btn {
+  padding: 8px 20px;
+  border: 1px solid #000;
+  border-radius: 7px;
+  font-size: 15px;
 }
 
-.btn:hover{
-	background-color: rgba(0, 0, 0, 0.842);
-	color: #fff;
-	cursor: pointer;
-	border: 1px solid #fff;
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.842);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
 }
