@@ -22,3 +22,30 @@ h3{
     text-transform: none;
     letter-spacing: none;
 }
+
+#output {
+	background: #ecf0f1;
+	color: #2c3e50;
+	width: 15rem;
+	margin-top: 30px;
+    padding: 7px;
+	margin-right: 10px;
+	border-radius: 7px;
+	border: none;
+	font-size: 15px;
+}
+
+
+.btn{
+	padding:8px 20px;
+	border: 1px solid #000;
+	border-radius: 7px;
+	font-size: 15px;
+}
+
+.btn:hover{
+	background-color: rgba(0, 0, 0, 0.842);
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
